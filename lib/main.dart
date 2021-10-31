@@ -1,4 +1,4 @@
-import 'package:crypto/screens/register.dart';
+import 'package:crypto/screens/login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Material App',
-      home: Register(),
+      home: Login(),
     );
   }
 }
